@@ -121,13 +121,11 @@ The validation study confirms the simulation reproduces published drag, pressure
 ```
 BIO-Summer2026/
 ├── README.md                 This file
-├── presentation.html         Web version of the final presentation (open in a browser)
-├── reports/                  Final written reports (PDF)
+├── reports/                  Final written reports (PDF) and the final presentation (PPTX)
 ├── figures/                  Static figures (mesh, mid-plane slices)
 ├── visualizations/           Flow visualization GIFs (speed, viscosity, vorticity)
-├── scripts/                  Post-processing / visualization scripts
-│   └── archive/              Superseded script versions, kept for reference
-└── web_assets/                Images used by presentation.html
+└── scripts/                  Post-processing / visualization scripts
+    └── archive/              Superseded script versions, kept for reference
 ```
 
 ## Code
