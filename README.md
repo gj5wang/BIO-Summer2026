@@ -116,12 +116,26 @@ The validation study confirms the simulation reproduces published drag, pressure
 
 **Limitations:** SGS kinetic energy is currently neglected in k but included in ε. c₄ assumes local equilibrium in the near wake. Offline calibration against the model is still pending and can give more accurate results.
 
+## Repository Structure
+
+```
+BIO-Summer2026/
+├── README.md                 This file
+├── presentation.html         Web version of the final presentation (open in a browser)
+├── reports/                  Final written reports (PDF)
+├── figures/                  Static figures (mesh, mid-plane slices)
+├── visualizations/           Flow visualization GIFs (speed, viscosity, vorticity)
+├── scripts/                  Post-processing / visualization scripts
+│   └── archive/              Superseded script versions, kept for reference
+└── web_assets/                Images used by presentation.html
+```
+
 ## Code
 
-- `vorticity/scripts/vorticity_z.py` — vorticity contour visualization (z-component)
-- `vorticity/scripts/vorticity_z_v2.py` — updated version of the vorticity_z visualization
-- `vorticity/scripts/speed_2panel.py` — two-panel speed/velocity magnitude visualization
-- `Documents/kres_pipeline.pvsm` — ParaView state file for the resolved TKE (kRes) pipeline
+- `scripts/vorticity_z.py` — vorticity contour visualization (z-component)
+- `scripts/vorticity_z_v2.py` — updated version of the vorticity_z visualization
+- `scripts/speed_2panel.py` — two-panel speed/velocity magnitude visualization
+- `scripts/archive/` — earlier `.bak` versions of `vorticity_z_v2.py`, kept for reference
 
 ## Acknowledgements
 
